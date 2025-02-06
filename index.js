@@ -1,16 +1,18 @@
-import express from "express"
-import cors from "cors"
+import express from "express";
+import cors from "cors";
 
-import dataEmplois from "./data/dataEmplois.js"
+import dataEmplois from "./data/dataEmplois.js";
 
-const app = express()
+const app = express();
 
-app.get('/', (req, res) => {
-  res.json('je suis dans le /')
-})
+app.use(cors());
 
-app.get('/emplois', (req, res) => {
-  res.json(dataEmplois)
-})
+app.get("/", (req, res) => {
+	res.json("je suis dans le /");
+});
 
-app.listen(4242, console.log('http://localhost:4242'))
+app.get("/emplois", (req, res) => {
+	res.json(dataEmplois);
+});
+
+app.listen(4242, console.log("http://localhost:4242"));
