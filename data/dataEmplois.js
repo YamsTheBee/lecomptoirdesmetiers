@@ -1,7 +1,7 @@
 const dataEmplois = [
 	{
 		id: 1,
-		image: "http://localhost:4242/static/bl%C3%A9.png",
+		image: "http://localhost:4242/static/ble.webp",
 		nom_du_poste: "Laboureur",
 		ville: "Lyon",
 		date_debut: "1350-03-15",
@@ -15,7 +15,7 @@ const dataEmplois = [
 	},
 	{
 		id: 2,
-		image: "http://localhost:4242/static/livre.png",
+		image: "http://localhost:4242/static/livre.jpg",
 		nom_du_poste: "Moine copiste",
 		ville: "Marseille",
 		date_debut: "1350-05-01",
@@ -42,7 +42,7 @@ const dataEmplois = [
 	},
 	{
 		id: 4,
-		image: "http://localhost:4242/static/bouclier.png",
+		image: "http://localhost:4242/static/bouclier.jpg",
 		nom_du_poste: "Écuyer",
 		ville: "Lyon",
 		date_debut: "1350-09-01",
@@ -56,7 +56,7 @@ const dataEmplois = [
 	},
 	{
 		id: 5,
-		image: "http://localhost:4242/static/bouclier.png",
+		image: "http://localhost:4242/static/bouclier.jpg",
 		nom_du_poste: "Archer du seigneur",
 		ville: "Lyon",
 		date_debut: "1350-06-20",
@@ -70,7 +70,7 @@ const dataEmplois = [
 	},
 	{
 		id: 6,
-		image: "http://localhost:4242/static/bl%C3%A9.png",
+		image: "http://localhost:4242/static/ble.webp",
 		nom_du_poste: "Meunier",
 		ville: "Lyon",
 		date_debut: "1350-04-10",
@@ -84,7 +84,7 @@ const dataEmplois = [
 	},
 	{
 		id: 7,
-		image: "http://localhost:4242/static/potion.png",
+		image: "http://localhost:4242/static/potion.jpg",
 		nom_du_poste: "Alchimiste",
 		ville: "Marseille",
 		date_debut: "1350-08-22",
@@ -111,7 +111,7 @@ const dataEmplois = [
 	},
 	{
 		id: 9,
-		image: "http://localhost:4242/static/chateau.png",
+		image: "http://localhost:4242/static/chateau.jpg",
 		nom_du_poste: "Héraut",
 		ville: "Marseille",
 		date_debut: "1350-07-05",
@@ -125,7 +125,7 @@ const dataEmplois = [
 	},
 	{
 		id: 10,
-		image: "http://localhost:4242/static/bouclier.png",
+		image: "http://localhost:4242/static/bouclier.jpg",
 		nom_du_poste: "Chevalier",
 		ville: "Rouen",
 		date_debut: "1350-02-12",
@@ -138,7 +138,7 @@ const dataEmplois = [
 	},
 	{
 		id: 11,
-		image: "http://localhost:4242/static/bl%C3%A9.png",
+		image: "http://localhost:4242/static/ble.webp",
 		nom_du_poste: "Vigneron",
 		ville: "Rouen",
 		date_debut: "1350-03-20",
@@ -150,7 +150,7 @@ const dataEmplois = [
 	},
 	{
 		id: 12,
-		image: "http://localhost:4242/static/livre.png",
+		image: "http://localhost:4242/static/livre.jpg",
 		nom_du_poste: "Scribe royal",
 		ville: "Rouen",
 		date_debut: "1350-06-01",
@@ -176,7 +176,7 @@ const dataEmplois = [
 	},
 	{
 		id: 14,
-		image: "http://localhost:4242/static/chateau.png",
+		image: "http://localhost:4242/static/chateau.jpg",
 		nom_du_poste: "Intendant du château",
 		ville: "Paris",
 		date_debut: "1350-07-12",
@@ -189,7 +189,7 @@ const dataEmplois = [
 	},
 	{
 		id: 15,
-		image: "http://localhost:4242/static/bouclier.png",
+		image: "http://localhost:4242/static/bouclier.jpg",
 		nom_du_poste: "Mercenaire",
 		ville: "Marseille",
 		date_debut: "1350-04-30",
@@ -201,7 +201,7 @@ const dataEmplois = [
 	},
 	{
 		id: 16,
-		image: "http://localhost:4242/static/chateau.png",
+		image: "http://localhost:4242/static/chateau.jpg",
 		nom_du_poste: "Bourreau",
 		ville: "Arles",
 		date_debut: "1350-06-15",
@@ -215,7 +215,7 @@ const dataEmplois = [
 	},
 	{
 		id: 17,
-		image: "http://localhost:4242/static/potion.png",
+		image: "http://localhost:4242/static/potion.jpg",
 		nom_du_poste: "Apothicaire",
 		ville: "Paris",
 		date_debut: "1350-07-25",
@@ -229,7 +229,7 @@ const dataEmplois = [
 	},
 	{
 		id: 18,
-		image: "http://localhost:4242/static/pain.png",
+		image: "http://localhost:4242/static/pain.jpg",
 		nom_du_poste: "Boulanger",
 		ville: "Arles",
 		date_debut: "1350-03-10",
@@ -243,7 +243,7 @@ const dataEmplois = [
 	},
 	{
 		id: 19,
-		image: "http://localhost:4242/static/chateau.png",
+		image: "http://localhost:4242/static/chateau.jpg",
 		nom_du_poste: "Troubadour",
 		ville: "Rouen",
 		date_debut: "1350-09-05",
